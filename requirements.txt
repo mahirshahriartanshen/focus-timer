@@ -1,4 +1,12 @@
-# Focus Timer - Dependencies
-# Install with: pip install -r requirements.txt
-
-PySide6>=6.4.0
+certifi==2025.11.12
+chardet==5.2.0
+charset-normalizer==3.4.3
+idna==3.10
+kali-tweaks==2025.4.0
+packaging==25.0
+pluginbase==1.0.1
+python-apt==3.0.0
+requests==2.32.5
+urllib3==2.5.0
+wafw00f==2.3.1
+wheel==0.46.1
