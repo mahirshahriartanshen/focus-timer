@@ -21,21 +21,30 @@ A local-only Pomodoro-style focus timer application built with PySide6 (Qt) and 
 
 ## Requirements
 
-- Python 3.8 or higher
-- PySide6
+- Python 3.8+
+- Windows / Linux / macOS
+- Dependencies listed in requirements.txt
 
-## Installation
+---
 
-```bash
-# Clone or download the project
-cd focus_timer
+## Installation & Run
 
-# Install dependencies
-pip install PySide6
+### 1) Clone the repository
 
-# Run the application
-python main.py
-```
+git clone https://github.com/mahirshahriartanshen/focus-timer.git  
+cd focus-timer  
+
+### 2) (Recommended) Create virtual environment
+
+###Linux / macOS:
+
+python3 -m venv venv  
+source venv/bin/activate  
+
+###Windows:
+
+python -m venv venv  
+venv\Scripts\activate  
 
 ## Project Structure
 
